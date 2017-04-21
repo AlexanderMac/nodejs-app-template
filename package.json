@@ -1,0 +1,25 @@
+{
+  "name": "repo-template",
+  "version": "0.0.1",
+  "description": "TODO",
+  "main": "TODO",
+  "files": [
+    "TODO"
+  ],
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderMac/repo-template.git"
+  },
+  "keywords": [
+    "TODO"
+  ],
+  "author": "Alexander Mac",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexanderMac/repo-template/issues"
+  },
+  "homepage": "https://github.com/AlexanderMac/repo-template#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}
