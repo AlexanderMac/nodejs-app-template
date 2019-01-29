@@ -4,26 +4,18 @@ logs
 tmp
 .tmp
 .DS_STORE
-
-# Runtime data
-pids
-*.pid
-*.seed
+npm-debug.log
 
 # Coverage directory used by tools like istanbul
 coverage
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
+.nyc_output
 
 # Dependency directory
 node_modules
 
 # Users Environment Variables
-.lock-wscript
 .vscode
 .idea
 .brackets.json
 .jsbeautifyrc
-tsd.json
-typings
+.nvmrc
