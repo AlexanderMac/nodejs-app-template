@@ -6,6 +6,10 @@
   "files": [
     "TODO"
   ],
+  "engines": {
+    "node": ">=14",
+    "npm": ">=7"
+  },
   "scripts": {
     "lint": "eslint --ext .js src/ test/",
     "test": "NODE_ENV=test mocha",
