@@ -4,20 +4,20 @@
 [![Code Coverage](https://codecov.io/gh/AlexanderMac/repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/repo-template)
 [![npm version](https://badge.fury.io/js/repo-template.svg)](https://badge.fury.io/js/repo-template)
 
-## Features
+### Features
 TODO
 
-## Commands
+### Commands
 TODO
 
-## Usage
+### Usage
 TODO
 
-## API
+### API
 TODO
 
-## Author
+### Author
 Alexander Mac
 
-## Licence
+### Licence
 Licensed under the MIT license.
