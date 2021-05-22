@@ -7,7 +7,7 @@
 ### Features
 TODO
 
-### Commands
+### Install
 TODO
 
 ### Usage
@@ -16,8 +16,8 @@ TODO
 ### API
 TODO
 
-### Author
-Alexander Mac
-
 ### Licence
 Licensed under the MIT license.
+
+### Author
+Alexander Mac
