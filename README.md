@@ -7,11 +7,21 @@
 ### Features
 TODO
 
-### Install
-TODO
-
 ### Usage
-TODO
+```sh
+# Clone this repo:
+git clone https://github.com/AlexanderMac/repo-template
+
+# Init your repo:
+cd repo-template && rm -rf .git && git init
+
+# Install pnpm when needed
+npm install -g pnpm
+
+pnpm install  # install dependencies
+pnpm lint     # run linter
+pnpm prettify # run prettier
+```
 
 ### API
 TODO
