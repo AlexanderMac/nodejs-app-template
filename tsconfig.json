@@ -13,7 +13,9 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true
   },
-  "files": [],
-  "include": [],
+  "include": [
+    "src",
+    "test",
+  ],
   "exclude": ["node_modules"]
 }
