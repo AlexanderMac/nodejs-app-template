@@ -31,9 +31,9 @@
     "url": "https://github.com/AlexanderMac/repo-template/issues"
   },
   "homepage": "https://github.com/AlexanderMac/repo-template#readme",
-  "Dependencies": {
-  },
+  "Dependencies": {},
   "devDependencies": {
+    "@types/mocha": "^10.0.1",
     "@types/node": "^18.15.9",
     "@typescript-eslint/eslint-plugin": "^5.56.0",
     "@typescript-eslint/parser": "^5.56.0",
@@ -43,6 +43,8 @@
     "lint-staged": "^13.2.0",
     "mocha": "^10.0.0",
     "prettier": "^2.7.1",
+    "should": "^13.2.3",
+    "ts-node-dev": "^2.0.0",
     "typescript": "^5.0.2"
   }
 }
