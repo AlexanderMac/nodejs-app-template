@@ -6,6 +6,10 @@
 
 ### Features
 TODO
+- Node > v16, pnpm
+- Typescript
+- ESlint, Mocha, Prettier
+- Husky and lint-staged
 
 ### Usage
 ```sh
@@ -19,8 +23,12 @@ cd repo-template && rm -rf .git && git init
 npm install -g pnpm
 
 pnpm install  # install dependencies
+pnpm start    # start app in watching mode (src/index.ts)
 pnpm lint     # run linter
 pnpm prettify # run prettier
+pnpm format   # run linter and prettier
+pnpm test     # run tests
+pnpm coverage # code coverage
 ```
 
 ### API
