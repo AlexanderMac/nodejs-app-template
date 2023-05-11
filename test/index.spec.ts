@@ -1,7 +1,7 @@
-import should from 'should';
+import should from 'should'
 
 describe('test', () => {
   it('test', () => {
-    should(true).be.true;
-  });
-});
+    should(true).be.true
+  })
+})
