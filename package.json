@@ -17,8 +17,10 @@
   },
   "scripts": {
     "prepare": "husky install",
+    "start": "ts-node-dev --rs --cls src/index.ts",
     "lint": "eslint ./src ./test --ext .ts --fix",
-    "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "prettify": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
+    "format": "pnpm lint && pnpm prettify",
     "test": "NODE_ENV=test mocha",
     "coverage": "nyc npm test",
     "coverage-gh": "nyc --reporter=lcov npm test && codecov"
@@ -34,18 +36,18 @@
   "Dependencies": {},
   "devDependencies": {
     "@types/mocha": "^10.0.1",
-    "@types/node": "^18.15.9",
-    "@typescript-eslint/eslint-plugin": "^5.56.0",
-    "@typescript-eslint/parser": "^5.56.0",
-    "eslint": "^8.17.0",
+    "@types/node": "^20.1.2",
+    "@typescript-eslint/eslint-plugin": "^5.59.5",
+    "@typescript-eslint/parser": "^5.59.5",
+    "eslint": "^8.40.0",
     "eslint-plugin-simple-import-sort": "^10.0.0",
     "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
-    "mocha": "^10.0.0",
+    "lint-staged": "^13.2.2",
+    "mocha": "^10.2.0",
     "nyc": "^15.1.0",
-    "prettier": "^2.7.1",
+    "prettier": "^2.8.8",
     "should": "^13.2.3",
     "ts-node-dev": "^2.0.0",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   }
 }
