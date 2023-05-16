@@ -42,4 +42,4 @@ jobs:
       - name: Code coverage
         run: pnpm coverage-gh
       - name: Upload coverage reports
-        uses: codecov/codecov-action@v1
+        uses: codecov/codecov-action@v3
