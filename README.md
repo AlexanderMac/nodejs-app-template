@@ -1,6 +1,7 @@
 # repo-template
 
 [![Build Status](https://github.com/AlexanderMac/repo-template/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template/actions?query=workflow%3ACI)
+[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/repo-template.svg)](https://badge.fury.io/js/repo-template)
 
 ### Features
