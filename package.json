@@ -1,5 +1,5 @@
 {
-  "name": "repo-template",
+  "name": "repo-template-nodejs",
   "version": "0.0.1",
   "description": "TODO",
   "keywords": [
@@ -26,10 +26,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexanderMac/repo-template.git"
+    "url": "git+https://github.com/AlexanderMac/repo-template-nodejs.git"
   },
   "bugs": {
-    "url": "https://github.com/AlexanderMac/repo-template/issues"
+    "url": "https://github.com/AlexanderMac/repo-template-nodejs/issues"
   },
   "homepage": "https://github.com/AlexanderMac/repo-template#readme",
   "Dependencies": {},

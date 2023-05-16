@@ -1,8 +1,8 @@
-# repo-template
+# repo-template-nodejs
 
-[![Build Status](https://github.com/AlexanderMac/repo-template/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template/actions?query=workflow%3ACI)
+[![Build Status](https://github.com/AlexanderMac/repo-template-nodejs/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template-nodejs/actions?query=workflow%3ACI)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/repo-template.svg)](https://badge.fury.io/js/repo-template)
+[![npm version](https://badge.fury.io/js/repo-template-nodejs.svg)](https://badge.fury.io/js/repo-template-nodejs)
 
 ### Features
 TODO
@@ -14,10 +14,10 @@ TODO
 ### Usage
 ```sh
 # Clone this repo:
-git clone https://github.com/AlexanderMac/repo-template
+git clone https://github.com/AlexanderMac/repo-template-nodejs
 
 # Init your repo:
-cd repo-template && rm -rf .git && git init
+cd repo-template-nodejs && rm -rf .git && git init
 
 # Install pnpm when needed
 npm install -g pnpm
