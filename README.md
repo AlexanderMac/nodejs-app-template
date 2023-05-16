@@ -1,6 +1,7 @@
 # repo-template-nodejs
 
 [![Build Status](https://github.com/AlexanderMac/repo-template-nodejs/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template-nodejs/actions?query=workflow%3ACI)
+[![Code Coverage](https://codecov.io/gh/AlexanderMac/repo-template/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/repo-template)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 [![npm version](https://badge.fury.io/js/repo-template-nodejs.svg)](https://badge.fury.io/js/repo-template-nodejs)
 

@@ -34,8 +34,12 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pnpm-store-
       - name: Install Dependencies
-        run: pnpm install
+        run: pnpm install && pnpm install -g codecov
       - name: Run linter
         run: pnpm lint
       - name: Run tests
         run: npm test
+      - name: Code coverage
+        run: pnpm coverage-gh
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v1
