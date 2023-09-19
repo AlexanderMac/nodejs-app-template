@@ -1,24 +1,24 @@
-# repo-template-nodejs
+# nodejs-app-template
 
-[![Build Status](https://github.com/AlexanderMac/repo-template-nodejs/workflows/CI/badge.svg)](https://github.com/AlexanderMac/repo-template-nodejs/actions?query=workflow%3ACI)
-[![Code Coverage](https://codecov.io/gh/AlexanderMac/repo-template-nodejs/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/repo-template-nodejs)
+[![Build Status](https://github.com/AlexanderMac/nodejs-app-template/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexanderMac/nodejs-app-template/actions/workflows/ci.yml)
+[![Code Coverage](https://codecov.io/gh/AlexanderMac/nodejs-app-template/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/nodejs-app-template)
 [![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/repo-template-nodejs.svg)](https://badge.fury.io/js/repo-template-nodejs)
+[![npm version](https://badge.fury.io/js/nodejs-app-template.svg)](https://badge.fury.io/js/nodejs-app-template)
 
 ### Features
 TODO
-- Node > v16, pnpm
-- Typescript
+- Node >= v16, pnpm
+- Typescript v5
 - ESlint, Mocha, Prettier
 - Husky and lint-staged
 
 ### Usage
 ```sh
 # Clone this repo:
-git clone https://github.com/AlexanderMac/repo-template-nodejs
+git clone https://github.com/AlexanderMac/nodejs-app-template
 
 # Init your repo:
-cd repo-template-nodejs && rm -rf .git && git init
+cd nodejs-app-template && rm -rf .git && git init
 
 # Install pnpm when needed
 npm install -g pnpm
