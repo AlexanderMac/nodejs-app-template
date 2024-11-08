@@ -9,14 +9,20 @@
   </p>
 </p>
 
-### Features
-TODO
+# Contents
+- [Contents](#contents)
+- [Features](#features)
+- [Usage](#usage)
+- [API](#api)
+- [License](#license)
+
+# Features
 - Node >= v22, pnpm v9
 - Typescript v5
 - ESlint, Jest, Prettier
 - Husky and lint-staged
 
-### Usage
+# Usage
 ```sh
 # Clone this repo:
 git clone https://github.com/AlexanderMac/nodejs-app-template
@@ -32,11 +38,11 @@ pnpm test     # run tests
 pnpm coverage # code coverage
 ```
 
-### API
+# API
 TODO
 
-### License
+# License
 Licensed under the MIT license.
 
-### Author
+# Author
 Alexander Mac
