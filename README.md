@@ -1,7 +1,6 @@
 <p align="center">
   <h1 align="center">nodejs-app-template</h1>
-  <p align="center">TODO: title1</a></p>
-  <p align="center">TODO: title2</p>
+  <p align="center">TODO: title</p>
   <p align="center">
     <a href="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
     <a href="https://codecov.io/gh/AlexanderMac/nodejs-app-template"><img src="https://codecov.io/gh/AlexanderMac/nodejs-app-template/branch/master/graph/badge.svg" alt="Code Coverage"></a>
