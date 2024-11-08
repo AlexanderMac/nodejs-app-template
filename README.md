@@ -7,9 +7,9 @@
 
 ### Features
 TODO
-- Node >= v16, pnpm
+- Node >= v22, pnpm v9
 - Typescript v5
-- ESlint, Mocha, Prettier
+- ESlint, Jest, Prettier
 - Husky and lint-staged
 
 ### Usage
@@ -20,14 +20,10 @@ git clone https://github.com/AlexanderMac/nodejs-app-template
 # Init your repo:
 cd nodejs-app-template && rm -rf .git && git init
 
-# Install pnpm when needed
-npm install -g pnpm
-
 pnpm install  # install dependencies
 pnpm start    # start app in watching mode (src/index.ts)
 pnpm lint     # run linter
-pnpm prettify # run prettier
-pnpm format   # run linter and prettier
+pnpm format   # run prettier
 pnpm test     # run tests
 pnpm coverage # code coverage
 ```

@@ -10,8 +10,7 @@
     "tsconfigRootDir": "./"
   },
   "plugins": [
-    "@typescript-eslint/eslint-plugin",
-    "simple-import-sort"
+    "@typescript-eslint/eslint-plugin"
   ],
   "extends": [
     "eslint:recommended",
@@ -84,7 +83,6 @@
     "@typescript-eslint/no-unsafe-return": "off",
     "@typescript-eslint/restrict-template-expressions": "off",
     "@typescript-eslint/no-require-imports": "error",
-    "@typescript-eslint/keyword-spacing": "error",
     "@typescript-eslint/no-namespace": "error",
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-use-before-define": "off",
@@ -93,33 +91,6 @@
     "@typescript-eslint/no-unused-vars": "off",
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-function-type": "error",
-    "@typescript-eslint/prefer-namespace-keyword": "error",
-    "simple-import-sort/imports": [
-      2,
-      {
-        "groups": [
-          [
-            // Side effect imports
-            "^\\u0000"
-          ],
-          [
-            // Node.js builtins prefixed with `node:`
-            "^node:"
-          ],
-          [
-            // Packages, things that start with a letter (or digit or underscore), or `@` followed by a letter
-            "^@?\\w"
-          ],
-          [
-            // Absolute imports and other imports
-            "^"
-          ],
-          [
-            // Relative imports, anything that starts with a dot
-            "^\\."
-          ]
-        ]
-      }
-    ]
+    "@typescript-eslint/prefer-namespace-keyword": "error"
   }
 }

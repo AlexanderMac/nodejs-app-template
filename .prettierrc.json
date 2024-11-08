@@ -4,9 +4,14 @@
   "useTabs": false,
   "semi": false,
   "singleQuote": true,
-  "quoteProps": "as-needed",
   "trailingComma": "all",
+  "quoteProps": "as-needed",
   "bracketSpacing": true,
   "arrowParens": "avoid",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrderParserPlugins" : ["typescript", "decorators-legacy"],
+  "importOrder": ["^[./]"],
+  "importOrderCaseInsensitive": true,
+  "importOrderSeparation": true
 }
