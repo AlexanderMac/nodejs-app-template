@@ -1,9 +1,16 @@
 # nodejs-app-template
 
-[![Build Status](https://github.com/AlexanderMac/nodejs-app-template/actions/workflows/ci.yml/badge.svg)](https://github.com/AlexanderMac/nodejs-app-template/actions/workflows/ci.yml)
-[![Code Coverage](https://codecov.io/gh/AlexanderMac/nodejs-app-template/branch/master/graph/badge.svg)](https://codecov.io/gh/AlexanderMac/nodejs-app-template)
-[![MIT license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-[![npm version](https://badge.fury.io/js/nodejs-app-template.svg)](https://badge.fury.io/js/nodejs-app-template)
+<p align="center">
+  <h1 align="center">nodejs-app-template</h1>
+  <p align="center">TODO: title1</a></p>
+  <p align="center">TODO: title2</p>
+  <p align="center">
+    <a href="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
+    <a href="https://codecov.io/gh/AlexanderMac/nodejs-app-template"><img src="https://codecov.io/gh/AlexanderMac/nodejs-app-template/branch/master/graph/badge.svg" alt="Code Coverage"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/github/license/alexandermac/nodejs-app-template.svg" alt="License"></a>
+    <a href="https://badge.fury.io/js/nodejs-app-template"><img src="https://badge.fury.io/js/nodejs-app-template.svg" alt="npm version"></a>
+  </p>
+</p>
 
 ### Features
 TODO
