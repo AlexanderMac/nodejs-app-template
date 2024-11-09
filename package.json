@@ -12,8 +12,8 @@
     "TODO"
   ],
   "engines": {
-    "node": ">=16",
-    "pnpm": ">=8"
+    "node": ">=22",
+    "pnpm": ">=9"
   },
   "scripts": {
     "prepare": "husky install",

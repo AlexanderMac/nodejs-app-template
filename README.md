@@ -1,13 +1,13 @@
-<p align="center">
-  <h1 align="center">nodejs-app-template</h1>
-  <p align="center">TODO: title</p>
-  <p align="center">
+<div align="center">
+  <h1>nodejs-app-template</h1>
+  <p>TODO: title</p>
+  <p>
     <a href="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml?query=branch%3Amaster"><img src="https://github.com/alexandermac/nodejs-app-template/actions/workflows/ci.yml/badge.svg" alt="Build Status"></a>
     <a href="https://codecov.io/gh/AlexanderMac/nodejs-app-template"><img src="https://codecov.io/gh/AlexanderMac/nodejs-app-template/branch/master/graph/badge.svg" alt="Code Coverage"></a>
     <a href="LICENSE"><img src="https://img.shields.io/github/license/alexandermac/nodejs-app-template.svg" alt="License"></a>
     <a href="https://badge.fury.io/js/nodejs-app-template"><img src="https://badge.fury.io/js/nodejs-app-template.svg" alt="npm version"></a>
   </p>
-</p>
+</div>
 
 # Contents
 - [Contents](#contents)
