@@ -20,7 +20,7 @@
 - Node >= v22, pnpm v9
 - Typescript v5
 - ESlint, Jest, Prettier
-- Husky and lint-staged
+- Pre-commit hook
 
 # Usage
 ```sh

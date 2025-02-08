@@ -8,23 +8,25 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: ['22']
+        node-version: [18, 20, 22]
     steps:
-      - name: Checkout code
+      - name: Fetch Repository
         uses: actions/checkout@v4
-      - name: Setup pnpm
+      - name: Install pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 9
-          run_install: false
-      - name: Install Node.js ${{ matrix.node-version }}
+      - name: Install Node.js
         uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'pnpm'
-      - name: Install Dependencies
+      - name: Install dependencies
         run: pnpm install
       - name: Run linter
         run: pnpm lint
       - name: Run tests
-        run: npm test
+        run: pnpm test
+      - name: Code coverage
+        run: pnpm coverage:codecov
+      - name: Upload coverage reports
+        uses: codecov/codecov-action@v5

@@ -1,4 +1,4 @@
-(async () => {
+void (async (): Promise<void> => {
   await printCurrentTime()
 })()
 
