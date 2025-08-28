@@ -4,7 +4,7 @@
     "noImplicitAny": true,
     "removeComments": true,
     "resolveJsonModule": true,
-    "target": "es2020",
+    "target": "esnext",
     "outDir": "./build/",
     "sourceMap": true,
     "allowJs": true,
