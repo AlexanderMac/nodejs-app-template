@@ -17,7 +17,7 @@
 - [License](#license)
 
 # Features
-- Node >= v22, pnpm v9
+- Node >= v24, pnpm v10
 - Typescript v5
 - ESlint, Jest, Prettier
 - Pre-commit hook
